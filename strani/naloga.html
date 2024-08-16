@@ -1,0 +1,16 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="/static/naloge.css">
+    </head>
+    <body>
+        <h1 class="centered">Naloga {{naloga}} na samodejnem ocenjevalnem sistemu</h1>
+        <div class="centered-div">
+            {{ besedilo }}
+            <form action="/oddaj/{{naloga}}" enctype="multipart/form-data" method="post">
+                <input name="files" type="file">
+                <input type="submit">
+            </form>
+            <p><a href="/naloge">&lt;- Nazaj na naloge.</a></p>
+        </div>
+    </body>
+</html>

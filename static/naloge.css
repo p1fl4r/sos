@@ -1,0 +1,19 @@
+.centered {
+    text-align: center;
+}
+
+.zelen {
+background-color: green;
+color: white;
+}
+
+.rdec {
+background-color: red;
+color: white;
+}
+
+.centered-div {
+margin: auto;
+width: 50%;
+max-width: 600px;
+}

@@ -1,0 +1,14 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="/static/naloge.css">
+    </head>
+    <body>
+        <h1 class="centered">Ocena naloge {{naloga}} na samodejnem ocenjevalnem sistemu</h1>
+        <div class="centered-div">
+            {% for file in files %}
+            {{ file|safe }}
+            {% endfor %}
+            <p><a href="/naloge">&lt;- Nazaj na naloge.</a></p>
+        </div>
+    </body>
+</html>

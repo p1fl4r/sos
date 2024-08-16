@@ -1,0 +1,15 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="/static/naloge.css">
+    </head>
+    <body>
+        <h1 class="centered">Dodaj nalogo na samodejni ocenjevalni sistem</h1>
+        <form action="/dodajnalogo/" enctype="multipart/form-data" method="post">
+            <input name="ime" type="text">
+            <input name="vsebina" type="text">
+            <input name="inp" type="file" multiple>
+            <input name="out" type="file" multiple>
+            <input type="submit">
+        </form>
+    </body>
+</html>

@@ -1,0 +1,13 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="/static/naloge.css">
+    </head>
+    <body>
+        <h1 class="centered">Naloge na samodejnem ocenjevalnem sistemu</h1>
+        <div class="centered">
+            {% for naloga in naloge %}
+            <p><a href="./naloge/{{naloga}}">{{ naloga }}</a></p>
+            {% endfor %}
+        </div>
+    </body>
+</html>
